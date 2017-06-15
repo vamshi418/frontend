@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<body ng-app="app">
+
+<form method="post">
+Enter firstname <input type="text" ng-model="person.firstname"><br>
+Enter lastname <input type="text" ng-model="person.lastname"><br>
+Enter email <input type="text" ng-model="person.email"><br>
+Enter phone <input type="text" ng-model="person.phone"><br>
+<input type="submit" ng-click="save()">
+</form>
+
+
+</body>
+<script type="text/javascript"
+src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular.js"></script>
+
+<script type="text/javascript" src="js/app.js"></script>
+<script type="text/javascript" src="js/service.js"></script>
+<script type="text/javascript" src="js/controller.js"></script>
+
+</body>
+</html>
